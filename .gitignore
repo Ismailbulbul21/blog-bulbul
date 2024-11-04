@@ -25,7 +25,8 @@ yarn-error.log*
 
 # Firebase
 .firebase/
-firebase-debug.log
+*.log
+.env
 
 # IDE
 .idea/
