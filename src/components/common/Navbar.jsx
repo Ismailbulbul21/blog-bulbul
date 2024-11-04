@@ -17,8 +17,17 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="text-xl font-bold">
-            Blog
+          <Link to="/" className="flex items-center space-x-2 text-2xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:from-blue-500 hover:to-purple-500 transition-all duration-300">
+            <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 8.41015 15.5899 5.5 12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 13.9021 6.29389 15.6117 7.58859 16.8186L6.5 18.5L8.9 17.7C9.83531 18.2049 10.8868 18.5 12 18.5Z" stroke="url(#paint0_linear)" strokeWidth="1.5"/>
+              <defs>
+                <linearGradient id="paint0_linear" x1="5.5" y1="12" x2="18.5" y2="12" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="#2563EB"/>
+                  <stop offset="1" stopColor="#9333EA"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <span>BulbulTalk</span>
           </Link>
 
           {/* Desktop Menu */}
